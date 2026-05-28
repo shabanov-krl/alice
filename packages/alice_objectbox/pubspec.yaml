@@ -17,7 +17,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  alice: ^1.0.0
+  alice:
+    git:
+      url: https://github.com/shabanov-krl/alice.git
+      path: packages/alice
   json_annotation: ^4.9.0
   meta: ^1.16.0
   objectbox: ^4.3.0
