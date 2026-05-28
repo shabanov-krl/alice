@@ -184,7 +184,7 @@ void main() {
           const AliceFormDataField('name', 'Alice'),
           const AliceFormDataField('surname', 'test'),
         ],
-        formDataFiles: [AliceFormDataFile(name, "application/octet-stream", 0)],
+        formDataFiles: [AliceFormDataFile(name, "image/png", 0)],
         body: 'Form data',
         headers: {'content-type': 'multipart/form-data'},
       );
